@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Reflection;
+// This does not yet include OOP
 Console.WriteLine("Hello!");
 
 static string DisplayMenu()
