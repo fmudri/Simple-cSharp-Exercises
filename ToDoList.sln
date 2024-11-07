@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList", "ToDoList\ToDoList.csproj", "{D2FF6F50-338E-4864-9814-1604CFB6AB74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoList", "ToDoList\ToDoList.csproj", "{D2FF6F50-338E-4864-9814-1604CFB6AB74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{B4E40162-8578-4AC3-92F5-F8C58D2EEA68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Calculator.csproj", "{B4E40162-8578-4AC3-92F5-F8C58D2EEA68}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_NamesBeforeRefactorToSRP", "..\..\UltimateCSharpMasterclass\02_NamesBeforeRefactorToSRP\02_NamesBeforeRefactorToSRP.csproj", "{81FB2CEF-D2CE-412B-AF36-654A62E4B4EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceRollGame", "DiceRollGame\DiceRollGame.csproj", "{4EB77343-8092-4BAC-8453-4ECE1C268238}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{B4E40162-8578-4AC3-92F5-F8C58D2EEA68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4E40162-8578-4AC3-92F5-F8C58D2EEA68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4E40162-8578-4AC3-92F5-F8C58D2EEA68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81FB2CEF-D2CE-412B-AF36-654A62E4B4EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81FB2CEF-D2CE-412B-AF36-654A62E4B4EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81FB2CEF-D2CE-412B-AF36-654A62E4B4EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81FB2CEF-D2CE-412B-AF36-654A62E4B4EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EB77343-8092-4BAC-8453-4ECE1C268238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EB77343-8092-4BAC-8453-4ECE1C268238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EB77343-8092-4BAC-8453-4ECE1C268238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EB77343-8092-4BAC-8453-4ECE1C268238}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

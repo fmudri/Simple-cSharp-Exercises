@@ -21,7 +21,7 @@ List<string> todos = [];
 
 do
 {
-    userInput = DisplayMenu();
+    userInput = DisplayMenu(); 
 
     if (userInput == "s")
     {
@@ -128,7 +128,4 @@ void RemoveTodoAtIndex(int index)
     todos.RemoveAt(index);
     Console.WriteLine($"TODO removed: {description}");
 }
-static void ShowNoTodosMessage()
-{
-    Console.WriteLine("No TODOs have been added yet.");
-}
+static void ShowNoTodosMessage() => Console.WriteLine("No TODOs have been added yet.");
